@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(../images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px 30px;
+    border-radius: 20px;
+    width: 600px;
+}
+
+.card .header{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.header img{
+    margin-right: 20px;
+}
+
+.header .title{
+    font-size: 40px;
+    color: hsl(292, 42%, 14%);
+}
+
+.qea{
+    border-bottom: 1px solid hsla(0, 0%, 90%, 50%);
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.question p{
+    color: hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+
+.question i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.question .fa-plus{
+    background-color: hsl(281, 83%, 54%);
+}
+
+.question .fa-minus{
+    background-color: hsl(292, 42%, 14%);
+}
+
+.answer p{
+    color: hsl(292, 16%, 49%);
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.none{
+    display: none;
+}
