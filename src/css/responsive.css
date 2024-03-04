@@ -1,0 +1,25 @@
+@media(max-width: 768px){
+    .container{
+        background-image: url(../images/background-pattern-mobile.svg);
+        height: 100%;
+        min-height: 1100px;
+    }
+
+    .card{
+        margin: 40px 0;
+    }
+}
+
+@media(max-width: 425px){
+    .container{
+        min-height: 900px;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .question p{
+        width: 90%;
+    }
+}
